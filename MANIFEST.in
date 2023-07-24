@@ -1,0 +1,2 @@
+exclude ./google_spreadsheets_exporter/test.py
+exclude ./google_spreadsheets_exporter/creds.json
