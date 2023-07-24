@@ -35,6 +35,10 @@ jobs:
 #        uses: pypa/gh-action-pypi-publish@release/v1
 #        with:
 #          password: ${{ secrets.PYPI_API_TOKEN }}
+      - name: Check location
+        run: |
+          pwd
+          ls -la
       - name: Build and publish
         env:
           TWINE_USERNAME: __token__
