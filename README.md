@@ -17,7 +17,7 @@ Include the following code snippet for desired functionality
       from pathlib import Path
       from google_spreadsheets_exporter.exporter import Exporter
         
-      BASE_DIR = Path(__file__).resolve() # adjust path to your credentials file filder as needed
+      BASE_DIR = Path(__file__).resolve() # adjust path to your credentials file folder as needed
       data = [["Name"],["David"]]
         
       exp = Exporter("spreadsheet-id", "sheet-name", data, credentials_file_full_path=os.path.join(BASE_DIR, "creds.json"))
@@ -38,7 +38,7 @@ Include the following code snippet for desired functionality
 - Step 2: 
     - Create a Google sheet from your account
     - Note down Spreadsheet ID
-      - eg https[]()://docs.google.com/spreadsheets/d/<font color="green">*spreadsheetId-sdvs-dsv*</font>/edit#gid=0/
+      - eg https[]()://docs.google.com/spreadsheets/d/<font color="green">*spreadsheetId*</font>/edit#gid=0/
     - Share the Spreadsheet with the email of your newly created Google project user.
   
 
@@ -51,7 +51,7 @@ Include the following code snippet for desired functionality
       from pathlib import Path
       from google_spreadsheets_exporter.exporter import Exporter
         
-      BASE_DIR = Path(__file__).resolve() # adjust path to your credentials file filder as needed
+      BASE_DIR = Path(__file__).resolve() # adjust path to your credentials file folder as needed
       data = [["Name"],["David"]]
         
       exp = Exporter("spreadsheet-id", "sheet-name", data, credentials_file_full_path=os.path.join(BASE_DIR, "creds.json"))
