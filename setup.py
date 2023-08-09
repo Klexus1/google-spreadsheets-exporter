@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name='google_spreadsheets_exporter',
-    version='1.0.4',
+    version='1.0.5',
     packages=['google_spreadsheets_exporter'],
     install_requires=[
         'google-api-python-client',
